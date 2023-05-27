@@ -2,7 +2,7 @@
  * 
  */
 
-function fizzBuzzTS(num: number) {
+function fizzBuzzTS(num: number): string[] {
   let finalArray: Array<string> = [];
   for (let i=0; i < num; i++) {
     if(i === 0){
